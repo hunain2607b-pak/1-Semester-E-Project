@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101713">
+    <title>Alpine Ascents | The Art of Mountaineering</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+<!-- CINEMATIC GSAP INTRO -->
+<div class="intro-screen" id="introScreen">
+
+    <div class="intro-card">
+
+        <div class="intro-title">
+            <span>ALPINE</span>
+            <span>ASCENTS</span>
+        </div>
+
+       
+
+        <div class="intro-card-bottom"></div>
+
+    </div>
+
+    <p class="intro-caption">
+        EXPLORE THE EXTRAORDINARY
+    </p>
+
+    <div class="intro-arrow">⌄</div>
+
+</div>
+
+
+
+
+<!-- HEADER -->
+<header class="header" id="header">
+
+    <a href="#home" class="logo">
+        
+         <div class="logo-image">
+           <img src="images/Logo.jpg" alt="Alpine Ascents Logo">
+         </div>
+        
+        <span>ALPINE <b>ASCENTS</b>
+            <small>THE ART OF MOUNTAINEERING</small>
+        </span>
+    </a>
+
+    <div class="visitor">
+        VISITORS <strong id="visitorCount">0</strong>
+    </div>
+
+    <!-- THREE LINE TOGGLE BUTTON -->
+    <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- NAVIGATION -->
+    <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#history" class="nav-link">History</a>
+        <a href="#styles" class="nav-link">Styles</a>
+        <a href="#techniques" class="nav-link">Techniques</a>
+        <a href="#sheltering" class="nav-link">Sheltering</a>
+        <a href="#hazards" class="nav-link">Hazards</a>
+        <a href="#records" class="nav-link">Records</a>
+        <a href="#clubs" class="nav-link">Clubs</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#developments" class="nav-link">Developments</a>
+        <a href="#guidelines" class="nav-link">Guidelines</a>
+    </nav>
+
+</header>
+
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="images/homebgvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="hero-content reveal">
+        <p class="eyebrow">DISCOVER THE WORLD ABOVE</p>
+
+        <h1>BEYOND THE<br>
+            <span>SUMMIT</span>
+        </h1>
+
+        <p class="hero-description">
+            Explore the extraordinary world of mountaineering.
+            Discover legendary peaks, master climbing techniques,
+            and experience the spirit of adventure.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#about" class="btn btn-gold">EXPLORE MORE</a>
+            <a href="#gallery" class="btn btn-outline">VIEW GALLERY</a>
+        </div>
+
+        <div class="hero-bottom">
+            <span>01 — THE MOUNTAINS ARE CALLING</span>
+            <span>EST. 2026</span>
+        </div>
+    </div>
+
+    <a href="#about" class="scroll-down">SCROLL TO EXPLORE ↓</a>
+
+</section>
+
+
+<!-- INTRODUCTION -->
+<section class="section about" id="about">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">THE WORLD OF ADVENTURE</p>
+        <h2>WHAT IS <span>MOUNTAINEERING?</span></h2>
+        <p>
+            A journey of courage, endurance and exploration.
+        </p>
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-image reveal">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+                 alt="Beautiful mountain landscape">
+            <div class="image-label">THE CALL OF THE WILD</div>
+        </div>
+
+        <div class="about-text reveal">
+            <span class="gold-number">01 / INTRODUCTION</span>
+            <h3>More Than Just Climbing</h3>
+
+            <p>
+                Mountaineering is the sport and activity of climbing
+                mountains. It involves physical fitness, technical
+                knowledge, mental strength and careful planning.
+            </p>
+
+            <p>
+                Mountaineers travel through challenging environments
+                including snow-covered peaks, glaciers, rocky terrain
+                and steep mountain faces.
+            </p>
+
+            <p>
+                It combines hiking, rock climbing, ice climbing,
+                navigation, camping and survival skills.
+            </p>
+
+            <a href="#history" class="text-link">DISCOVER ITS HISTORY →</a>
+        </div>
+
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat">
+            <h3>8,849m</h3>
+            <p>Mount Everest Height</p>
+        </div>
+        <div class="stat">
+            <h3>1953</h3>
+            <p>First Confirmed Everest Summit</p>
+        </div>
+        <div class="stat">
+            <h3>14</h3>
+            <p>Eight-Thousanders</p>
+        </div>
+        <div class="stat">
+            <h3>1950</h3>
+            <p>First Annapurna Summit</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- HISTORY -->
+<section class="section dark-section" id="history">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">THE LEGACY OF EXPLORATION</p>
+        <h2>HISTORY OF <span>MOUNTAINEERING</span></h2>
+        <p>From early mountain exploration to modern expeditions.</p>
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-item reveal">
+            <span>1786</span>
+            <div>
+                <h3>Mont Blanc Summit</h3>
+                <p>
+                    Jacques Balmat and Michel-Gabriel Paccard
+                    reached the summit of Mont Blanc, an important
+                    milestone in modern mountaineering.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item reveal">
+            <span>1854</span>
+            <div>
+                <h3>Golden Age Begins</h3>
+                <p>
+                    European climbers began exploring and
+                    successfully climbing major Alpine peaks.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item reveal">
+            <span>1950</span>
+            <div>
+                <h3>First 8,000m Peak</h3>
+                <p>
+                    Maurice Herzog and Louis Lachenal reached
+                    Annapurna I, the first confirmed ascent of
+                    an 8,000-metre mountain.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item reveal">
+            <span>1953</span>
+            <div>
+                <h3>Everest Conquered</h3>
+                <p>
+                    Sir Edmund Hillary and Tenzing Norgay
+                    successfully reached the summit of Mount Everest.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item reveal">
+            <span>MODERN ERA</span>
+            <div>
+                <h3>Technology & Exploration</h3>
+                <p>
+                    GPS, satellite communication, advanced clothing
+                    and modern safety equipment transformed
+                    mountaineering.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- TYPES AND STYLES -->
+<section class="section" id="styles">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">CHOOSE YOUR CHALLENGE</p>
+        <h2>TYPES & <span>STYLES</span></h2>
+        <p>Different ways to explore the mountains.</p>
+    </div>
+
+    <div class="card-grid">
+
+        <article class="info-card reveal">
+            <img src="images/hiring.jpg"
+                 alt="Mountain hiking">
+            <div class="card-content">
+                <span>01</span>
+                <h3>Hiking & Trekking</h3>
+                <p>
+                    Walking through mountain trails and natural
+                    landscapes over short or extended journeys.
+                </p>
+            </div>
+        </article>
+
+        <article class="info-card reveal">
+            <img src="images/Rock Climbing.jpg"
+                 alt="Rock climbing">
+            <div class="card-content">
+                <span>02</span>
+                <h3>Rock Climbing</h3>
+                <p>
+                    Climbing natural rock formations using ropes,
+                    harnesses, anchors and specialized equipment.
+                </p>
+            </div>
+        </article>
+
+        <article class="info-card reveal">
+            <img src="images/Winter Mountaineering.jpg"
+                 alt="Snow mountain">
+            <div class="card-content">
+                <span>03</span>
+                <h3>Alpine Climbing</h3>
+                <p>
+                    A combination of rock, snow and ice climbing
+                    in high-altitude mountain environments.
+                </p>
+            </div>
+        </article>
+
+        <article class="info-card reveal">
+            <img src="images/Ice Climbing.jpg"
+                 alt="Ice climbing">
+            <div class="card-content">
+                <span>04</span>
+                <h3>Ice Climbing</h3>
+                <p>
+                    Ascending frozen waterfalls and icy mountain
+                    surfaces with ice axes and crampons.
+                </p>
+            </div>
+        </article>
+
+        <article class="info-card reveal">
+            <img src="images/Expedition Climbing.jpg"
+                 alt="Mountain landscape">
+            <div class="card-content">
+                <span>05</span>
+                <h3>Expedition Climbing</h3>
+                <p>
+                    Long and carefully organized journeys to
+                    remote and challenging mountain peaks.
+                </p>
+            </div>
+        </article>
+
+        <article class="info-card reveal">
+            <img src="images/Winter Mountaineering.jpg"
+                 alt="Mountain night">
+            <div class="card-content">
+                <span>06</span>
+                <h3>Winter Mountaineering</h3>
+                <p>
+                    Climbing mountains in winter conditions,
+                    involving snow, ice and extreme cold.
+                </p>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- TECHNIQUES -->
+<section class="section dark-section" id="techniques">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">MASTER THE MOUNTAIN</p>
+        <h2>CLIMBING <span>TECHNIQUES</span></h2>
+        <p>Essential skills used by mountaineers.</p>
+    </div>
+
+    <div class="technique-grid">
+
+        <div class="technique reveal">
+            <div class="tech-icon">01</div>
+            <h3>Rope Management</h3>
+            <p>Understanding rope systems, knots, belaying and safe climbing connections.</p>
+        </div>
+
+        <div class="technique reveal">
+            <div class="tech-icon">02</div>
+            <h3>Navigation</h3>
+            <p>Using maps, compasses and GPS devices to plan and follow mountain routes.</p>
+        </div>
+
+        <div class="technique reveal">
+            <div class="tech-icon">03</div>
+            <h3>Ice & Snow Skills</h3>
+            <p>Using crampons, ice axes and appropriate movement techniques on snow and ice.</p>
+        </div>
+
+        <div class="technique reveal">
+            <div class="tech-icon">04</div>
+            <h3>Acclimatization</h3>
+            <p>Allowing the body to adjust gradually to reduced oxygen at higher altitudes.</p>
+        </div>
+
+        <div class="technique reveal">
+            <div class="tech-icon">05</div>
+            <h3>Weather Assessment</h3>
+            <p>Reading forecasts and recognizing changing mountain weather conditions.</p>
+        </div>
+
+        <div class="technique reveal">
+            <div class="tech-icon">06</div>
+            <h3>Emergency Skills</h3>
+            <p>Learning first aid, rescue communication and emergency response procedures.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SHELTERING -->
+<section class="section" id="sheltering">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">REST IN THE WILDERNESS</p>
+        <h2>MOUNTAIN <span>SHELTERING</span></h2>
+        <p>Safe places to rest during mountain expeditions.</p>
+    </div>
+
+    <div class="shelter-grid">
+
+        <div class="shelter-image reveal">
+            <img src="images/MOUNTAIN SHELTERING.jpg"
+                 alt="Mountain camping landscape">
+        </div>
+
+        <div class="shelter-content reveal">
+            <h3>Life Above the Clouds</h3>
+            <p>
+                Proper shelter is essential for protection from
+                wind, snow, rain and extreme temperatures.
+                Mountaineers select shelters according to terrain,
+                weather and expedition requirements.
+            </p>
+
+            <ul class="gold-list">
+                <li>High-altitude expedition tents</li>
+                <li>Mountain huts and refuges</li>
+                <li>Base camps</li>
+                <li>Emergency shelters</li>
+                <li>Snow caves and bivouac shelters</li>
+            </ul>
+
+            <p class="small-note">
+                Always select a safe campsite away from avalanche
+                paths, unstable slopes and other natural hazards.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- HAZARDS -->
+<section class="section danger-section" id="hazards">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">RESPECT THE MOUNTAIN</p>
+        <h2>MOUNTAIN <span>HAZARDS</span></h2>
+        <p>Understanding risks is essential for every expedition.</p>
+    </div>
+
+    <div class="hazard-grid">
+
+        <div class="hazard-card reveal">
+            <span>01</span>
+            <h3>Altitude Sickness</h3>
+            <p>Illness caused by insufficient acclimatization at high altitude.</p>
+        </div>
+
+        <div class="hazard-card reveal">
+            <span>02</span>
+            <h3>Avalanches</h3>
+            <p>Rapid movement of snow down a mountain slope.</p>
+        </div>
+
+        <div class="hazard-card reveal">
+            <span>03</span>
+            <h3>Extreme Weather</h3>
+            <p>Sudden storms, high winds, snow and freezing temperatures.</p>
+        </div>
+
+        <div class="hazard-card reveal">
+            <span>04</span>
+            <h3>Falling Rocks</h3>
+            <p>Loose rocks and falling debris can cause serious injuries.</p>
+        </div>
+
+        <div class="hazard-card reveal">
+            <span>05</span>
+            <h3>Crevasses</h3>
+            <p>Deep cracks in glaciers that may be hidden under snow.</p>
+        </div>
+
+        <div class="hazard-card reveal">
+            <span>06</span>
+            <h3>Hypothermia</h3>
+            <p>A dangerous drop in body temperature due to cold exposure.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- RECORDS -->
+<section class="section dark-section" id="records">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">HUMAN ACHIEVEMENTS</p>
+        <h2>WORLD <span>RECORDS</span></h2>
+        <p>Some remarkable milestones in mountaineering history.</p>
+    </div>
+
+    <div class="records-table-wrapper reveal">
+
+        <table class="records-table">
+            <thead>
+                <tr>
+                    <th>ACHIEVEMENT</th>
+                    <th>PERSON / DETAILS</th>
+                    <th>YEAR</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Highest Mountain</td>
+                    <td>Mount Everest – 8,848.86 m</td>
+                    <td>2020 measurement</td>
+                </tr>
+
+                <tr>
+                    <td>First Everest Summit</td>
+                    <td>Edmund Hillary & Tenzing Norgay</td>
+                    <td>1953</td>
+                </tr>
+
+                <tr>
+                    <td>First 8,000m Peak</td>
+                    <td>Annapurna I – Maurice Herzog & Louis Lachenal</td>
+                    <td>1950</td>
+                </tr>
+
+                <tr>
+                    <td>First Winter Everest Ascent</td>
+                    <td>Leszek Cichy & Krzysztof Wielicki</td>
+                    <td>1980</td>
+                </tr>
+
+                <tr>
+                    <td>First Woman on Everest</td>
+                    <td>Junko Tabei</td>
+                    <td>1975</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p class="small-note">
+            Historical milestones are shown here; records and
+            current record-holder details can change.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- CLUBS AND ORGANIZATIONS -->
+<section class="section" id="clubs">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">JOIN THE GLOBAL COMMUNITY</p>
+        <h2>CLUBS & <span>ORGANIZATIONS</span></h2>
+        <p>Explore established mountaineering organizations around the world.</p>
+    </div>
+
+    <div class="club-grid">
+
+        <article class="club-card reveal">
+            <span class="club-number">01 / USA</span>
+            <h3>The Mountaineers</h3>
+            <p>Outdoor education, climbing courses and mountain activities.</p>
+            <a href="https://www.mountaineers.org/" target="_blank" rel="noopener">VISIT WEBSITE ↗</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=The+Mountaineers+Seattle+USA"
+               target="_blank" rel="noopener">VIEW LOCATION ↗</a>
+        </article>
+
+        <article class="club-card reveal">
+            <span class="club-number">02 / UK</span>
+            <h3>The Alpine Club</h3>
+            <p>A historic organization dedicated to climbing and alpine exploration.</p>
+            <a href="https://www.alpine-club.org.uk/" target="_blank" rel="noopener">VISIT WEBSITE ↗</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Alpine+Club+London+UK"
+               target="_blank" rel="noopener">VIEW LOCATION ↗</a>
+        </article>
+
+        <article class="club-card reveal">
+            <span class="club-number">03 / NEPAL</span>
+            <h3>Nepal Mountaineering Association</h3>
+            <p>Promotes mountaineering, climbing education and mountain tourism in Nepal.</p>
+            <a href="https://www.nepalmountaineering.org/" target="_blank" rel="noopener">VISIT WEBSITE ↗</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Nepal+Mountaineering+Association+Kathmandu"
+               target="_blank" rel="noopener">VIEW LOCATION ↗</a>
+        </article>
+
+        <article class="club-card reveal">
+            <span class="club-number">04 / INTERNATIONAL</span>
+            <h3>UIAA</h3>
+            <p>International organization supporting climbing, mountaineering and safety.</p>
+            <a href="https://www.theuiaa.org/" target="_blank" rel="noopener">VISIT WEBSITE ↗</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=UIAA+Bern+Switzerland"
+               target="_blank" rel="noopener">VIEW LOCATION ↗</a>
+        </article>
+
+    </div>
+
+    <div class="map-container reveal">
+        <div class="map-heading">
+            <h3>EXPLORE MOUNTAIN LOCATIONS</h3>
+            <p>Discover the world's legendary mountain regions.</p>
+        </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16497.251806271095!2d86.91352195655928!3d27.988171781655137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e854a215bd9ebd%3A0x576dcf806abbab2!2sMt%20Everest!5e0!3m2!1sen!2s!4v1795173168338!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+
+</section>
+
+
+<!-- SUCCESS STORIES -->
+<section class="success-section">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">STORIES THAT INSPIRE</p>
+        <h2>EXPEDITION <span>SUCCESS STORIES</span></h2>
+        <p>Historic journeys that changed mountaineering forever.</p>
+    </div>
+
+    <div class="success-grid">
+
+        <div class="success-card reveal">
+            <img src="images/mounteverst.jpg"
+                 alt="Mount Everest">
+            <div>
+                <span>1953 • NEPAL</span>
+                <h3>The First Everest Summit</h3>
+                <p>
+                    Edmund Hillary and Tenzing Norgay achieved
+                    one of the greatest milestones in climbing history.
+                </p>
+            </div>
+        </div>
+
+        <div class="success-card reveal">
+            <img src="images/k2.jpg"
+                 alt="K2 mountain">
+            <div>
+                <span>1954 • PAKISTAN</span>
+                <h3>The First K2 Ascent</h3>
+                <p>
+                    Achille Compagnoni and Lino Lacedelli reached
+                    the summit of K2 during an Italian expedition.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- GALLERY -->
+<section class="section dark-section" id="gallery">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">CAPTURE THE ADVENTURE</p>
+        <h2>THE MOUNTAIN <span>GALLERY</span></h2>
+        <p>Beautiful views and unforgettable mountain moments.</p>
+    </div>
+
+   <div class="gallery-grid">
+
+    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+         alt="Mountain peaks">
+
+    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba"
+         alt="Snow mountain">
+
+    <img src="https://images.unsplash.com/photo-1551632811-561732d1e306"
+         alt="Mountain hiking">
+
+    <img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1"
+         alt="Mountain ice">
+
+    <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
+         alt="Mountain lake">
+
+    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+         alt="Mountain landscape">
+
+</div>
+
+    <div class="video-section reveal">
+        <h3>WATCH THE WORLD OF MOUNTAINEERING</h3>
+        <p>Explore educational and adventure videos.</p>
+
+        <div class="video-wrapper">
+            <iframe
+                src="https://www.youtube.com/embed/ScMzIvxBSi4"
+                title="Mountaineering video"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- LATEST DEVELOPMENTS -->
+<section class="section" id="developments">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">THE FUTURE OF EXPLORATION</p>
+        <h2>LATEST <span>DEVELOPMENTS</span></h2>
+        <p>Technology and innovation in modern mountaineering.</p>
+    </div>
+
+    <div class="development-grid">
+
+        <article class="development-card reveal">
+            <span>01 / TECHNOLOGY</span>
+            <h3>GPS & Satellite Communication</h3>
+            <p>
+                Modern navigation and satellite messaging devices
+                help climbers communicate in remote locations.
+            </p>
+        </article>
+
+        <article class="development-card reveal">
+            <span>02 / EQUIPMENT</span>
+            <h3>Advanced Climbing Gear</h3>
+            <p>
+                Lightweight materials and improved equipment
+                enhance comfort and performance.
+            </p>
+        </article>
+
+        <article class="development-card reveal">
+            <span>03 / WEATHER</span>
+            <h3>Digital Weather Forecasting</h3>
+            <p>
+                Forecasting tools help expedition teams monitor
+                storms, wind and changing conditions.
+            </p>
+        </article>
+
+        <article class="development-card reveal">
+            <span>04 / SAFETY</span>
+            <h3>Mountain Rescue Technology</h3>
+            <p>
+                Emergency beacons and satellite systems help
+                rescue teams locate climbers in distress.
+            </p>
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- GUIDELINES -->
+<section class="guidelines-section" id="guidelines">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">CLIMB SMART • STAY SAFE</p>
+        <h2>GENERAL <span>GUIDELINES</span></h2>
+        <p>Important principles for a safer mountain adventure.</p>
+    </div>
+
+    <div class="guidelines-content reveal">
+
+        <div class="guideline">
+            <span>01</span>
+            <p>Always plan your expedition before starting the journey.</p>
+        </div>
+
+        <div class="guideline">
+            <span>02</span>
+            <p>Check weather forecasts and mountain conditions.</p>
+        </div>
+
+        <div class="guideline">
+            <span>03</span>
+            <p>Carry appropriate clothing, food, water and equipment.</p>
+        </div>
+
+        <div class="guideline">
+            <span>04</span>
+            <p>Never climb beyond your experience and physical ability.</p>
+        </div>
+
+        <div class="guideline">
+            <span>05</span>
+            <p>Inform someone about your route and expected return time.</p>
+        </div>
+
+        <div class="guideline">
+            <span>06</span>
+            <p>Respect nature and leave no waste behind.</p>
+        </div>
+
+        <div class="guideline">
+            <span>07</span>
+            <p>Learn first aid and basic mountain rescue procedures.</p>
+        </div>
+
+        <div class="guideline">
+            <span>08</span>
+            <p>Turn back when weather or safety conditions become dangerous.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <a href="#home" class="footer-logo">
+         ALPINE ASCENTS
+    </a>
+
+    <p>INSPIRE YOUR SPIRIT. CONQUER YOUR LIMITS.</p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#clubs">Organizations</a>
+        <a href="#guidelines">Guidelines</a>
+    </div>
+
+    <div class="copyright">
+        © 2026 ALPINE ASCENTS. ALL RIGHTS RESERVED.
+        <br>
+        A WORLD OF MOUNTAINEERING AND ADVENTURE.
+    </div>
+
+</footer>
+
+
+<!-- LIVE BOTTOM TICKER -->
+<div class="ticker">
+
+    <div class="ticker-content" id="tickerContent">
+        <span id="dateTime">Loading date and time...</span>
+        <span>✦</span>
+        <span id="location">Detecting location...</span>
+        <span>✦</span>
+        <span>ALPINE ASCENTS — EXPLORE THE EXTRAORDINARY</span>
+        <span>✦</span>
+    </div>
+
+</div>
+
+
+
+<!-- GSAP CORE -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+<!-- GSAP SCROLL TRIGGER -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<!-- YOUR JAVASCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
